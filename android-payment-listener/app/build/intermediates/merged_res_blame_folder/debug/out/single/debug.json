@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/xml_accessibility_service_config.xml.flat",
+        "source": "com.paymentlistener.app-main-31:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.paymentlistener.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.paymentlistener.app-merged_res-29:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.paymentlistener.app-main-31:/mipmap-hdpi/ic_launcher.png"
+    }
+]

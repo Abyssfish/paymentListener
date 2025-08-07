@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.paymentlistener"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\6a17f8a5a708216ae1ec9d81e4667c7a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.paymentlistener.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\6a17f8a5a708216ae1ec9d81e4667c7a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\6a17f8a5a708216ae1ec9d81e4667c7a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.paymentlistener.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\6a17f8a5a708216ae1ec9d81e4667c7a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\6a17f8a5a708216ae1ec9d81e4667c7a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:4:5-29:19
+18        android:allowBackup="true"
+18-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\6a17f8a5a708216ae1ec9d81e4667c7a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:6:9-43
+22        android:label="@string/app_name"
+22-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:7:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:8:9-54
+24        android:supportsRtl="true"
+24-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:9:9-35
+25        android:theme="@style/AppTheme" >
+25-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:10:9-40
+26        <activity
+26-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:11:9-17:20
+27            android:name="com.paymentlistener.MainActivity"
+27-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:11:19-47
+28            android:exported="true" >
+28-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:12:13-36
+29            <intent-filter>
+29-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:13:13-16:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:14:17-69
+30-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:14:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:15:17-77
+32-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:15:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <service
+36-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:18:9-28:19
+37            android:name="com.paymentlistener.PaymentAccessibilityService"
+37-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:19:13-56
+38            android:exported="false"
+38-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:20:13-37
+39            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+39-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:21:13-79
+40            <intent-filter>
+40-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:22:13-24:29
+41                <action android:name="android.accessibilityservice.AccessibilityService" />
+41-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:23:17-92
+41-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:23:25-89
+42            </intent-filter>
+43
+44            <meta-data
+44-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:25:13-27:72
+45                android:name="android.accessibilityservice"
+45-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:26:17-60
+46                android:resource="@xml/accessibility_service_config" />
+46-->D:\Catalogue\projects\paymentListener\android-payment-listener\app\src\main\AndroidManifest.xml:27:17-69
+47        </service>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\108ecdb4024f2a506df83adaa4003761\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\108ecdb4024f2a506df83adaa4003761\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.paymentlistener.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\108ecdb4024f2a506df83adaa4003761\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\108ecdb4024f2a506df83adaa4003761\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\108ecdb4024f2a506df83adaa4003761\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\108ecdb4024f2a506df83adaa4003761\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\108ecdb4024f2a506df83adaa4003761\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\477385660a5337da0f5cf66066c34b1a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\477385660a5337da0f5cf66066c34b1a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\8.14.3\transforms\477385660a5337da0f5cf66066c34b1a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
